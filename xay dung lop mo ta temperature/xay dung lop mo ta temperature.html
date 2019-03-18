@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>XD</title>
+</head>
+<body>
+<script>
+    function Temperature() {
+        this.C = prompt("nhap nhiet do C :")
+        this.F = function () {
+            return this.C *1.8+32
+            
+        }
+        this.K = function () {
+            return this.C+273*1.5
+        }
+    } let ND = new Temperature()
+    document.write("do F la :" + ND.F() + "<br>")
+    document.write("do K la :" + ND.K())
+</script>
+
+</body>
+</html>
